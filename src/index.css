@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+/* .background {
+  background: hsla(186, 33%, 94%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+} */
+.background{
+  background: #000;
+}
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+.spinner {
+  width: 50px;
+  height: 50px;
+  color: #766df4;
+  --c: radial-gradient(farthest-side, currentColor 92%, #0000);
+  background: var(--c) 50% 0 /12px 12px, var(--c) 50% 100%/12px 12px,
+    var(--c) 100% 50%/12px 12px, var(--c) 0 50%/12px 12px,
+    var(--c) 50% 50%/12px 12px,
+    linear-gradient(currentColor 0 0) 50% 50%/4px 100%,
+    linear-gradient(currentColor 0 0) 50% 50%/100% 4px;
+  background-repeat: no-repeat;
+  animation: s8 1s infinite linear;
+}
+@keyframes s8 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+}
